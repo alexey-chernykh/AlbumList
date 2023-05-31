@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Back"
+        android:icon="@drawable/ic_back"
+        android:title="@string/GoBack"/>
+
+    <item android:title="@string/SortBy">
+        <menu>
+            <item
+                android:id="@+id/SortByAlbumName"
+                android:icon="@drawable/ic_album"
+                android:title="@string/SortByAlbumName"/>
+            <item
+                android:id="@+id/SortByActor"
+                android:icon="@drawable/ic_actor"
+                android:title="@string/SortByActor"/>
+            <item
+                android:id="@+id/SortByYear"
+                android:icon="@drawable/ic_year"
+                android:title="@string/SortByYear"/>
+        </menu>
+    </item>
+    <item android:title="@string/FindFilter">
+        <menu>
+            <item
+                android:id="@+id/FindByAlbumName"
+                android:icon="@drawable/ic_album"
+                android:title="@string/FindByAlbumName"
+                android:checkable="true"
+                android:checked="true"/>
+            <item
+                android:id="@+id/FindByActor"
+                android:icon="@drawable/ic_actor"
+                android:title="@string/FindByActor"
+                android:checkable="true"
+                android:checked="false"/>
+            <item
+                android:id="@+id/FindByYear"
+                android:icon="@drawable/ic_year"
+                android:title="@string/FindByYear"
+                android:checkable="true"
+                android:checked="false"/>
+        </menu>
+    </item>
+
+
+</menu>

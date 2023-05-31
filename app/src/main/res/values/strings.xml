@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AlbumList</string>
+    <string name="choose_add">Add Album</string>
+    <string name="choose_find">Find by..</string>
+    <string name="SortBy">Sort by</string>
+    <string name="SortByAlbumName">Sort by Album Name</string>
+    <string name="SortByActor">Sort by Actor</string>
+    <string name="SortByYear">Sort by Year</string>
+    <string name="GoBack">Go Back</string>
+    <string name="FindFilter">Find Filter</string>
+    <string name="FindByAnything">Find by Anything</string>
+    <string name="FindByAlbumName">Find by Album Name</string>
+    <string name="FindByActor">Find by Actor</string>
+    <string name="FindByYear">Find by Year</string>
+</resources>
